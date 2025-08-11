@@ -143,6 +143,109 @@ body {
     text-align: center;
 }
 
+.empathy-headline {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--primary-blue);
+    margin-bottom: 32px;
+    line-height: 1.4;
+}
+
+.empathy-story {
+    margin-bottom: 40px;
+}
+
+.story-highlight {
+    background: var(--light-blue);
+    padding: 24px;
+    border-radius: var(--border-radius);
+    margin: 24px 0;
+    border-left: 4px solid var(--primary-blue);
+}
+
+.pain-points {
+    margin: 40px 0;
+    padding: 32px;
+    background: #fafafa;
+    border-radius: var(--border-radius);
+}
+
+.section-intro {
+    font-size: 18px;
+    margin-bottom: 24px;
+    color: var(--primary-blue);
+}
+
+.pain-list {
+    list-style: none;
+    margin: 20px 0;
+    text-align: left;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pain-list li {
+    padding: 8px 0;
+    font-size: 16px;
+    color: var(--medium-gray);
+    position: relative;
+    padding-left: 24px;
+}
+
+.hope-message {
+    font-size: 18px;
+    color: var(--primary-blue);
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+.success-testimonials {
+    margin: 40px 0;
+    padding: 32px;
+    background: var(--light-blue);
+    border-radius: var(--border-radius);
+}
+
+.testimonial-quote {
+    background: var(--white);
+    padding: 16px 20px;
+    margin: 12px 0;
+    border-radius: var(--border-radius);
+    font-style: italic;
+    color: var(--dark-gray);
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.testimonial-quote::before {
+    content: '"';
+    font-size: 24px;
+    color: var(--primary-blue);
+    font-weight: bold;
+}
+
+.testimonial-quote::after {
+    content: '"';
+    font-size: 24px;
+    color: var(--primary-blue);
+    font-weight: bold;
+}
+
+.closing-message {
+    margin: 40px 0;
+}
+
+.final-cta {
+    font-size: 18px;
+    color: var(--primary-blue);
+    font-weight: 600;
+    margin-top: 24px;
+    padding: 20px;
+    background: var(--light-blue);
+    border-radius: var(--border-radius);
+}
+
 .empathy-text {
     font-size: 16px;
     margin-bottom: 24px;
@@ -875,6 +978,18 @@ body {
         font-size: 18px;
     }
     
+    .empathy-headline {
+        font-size: 24px;
+    }
+    
+    .pain-list {
+        max-width: 600px;
+    }
+    
+    .testimonial-quote {
+        font-size: 16px;
+    }
+    
     .section-header h2 {
         font-size: 24px;
     }
@@ -942,6 +1057,22 @@ body {
     }
     
     .empathy-text {
+        font-size: 20px;
+    }
+    
+    .empathy-headline {
+        font-size: 28px;
+    }
+    
+    .section-intro {
+        font-size: 20px;
+    }
+    
+    .hope-message {
+        font-size: 20px;
+    }
+    
+    .final-cta {
         font-size: 20px;
     }
     
